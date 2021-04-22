@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* body{  all things is center
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center; vertical
+    justify-content: center; horisantal
+} */
+
+.menu-container{
+    color: #fff;
+    background-image: linear-gradient(to right, #480048, #c04848);
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.menu{
+    width: 95%;
+    display: flex;
+    justify-content: center;
+}
+
+.login{
+    margin-left: 20px;
+}
+
+.signup{
+    margin-left: auto;
+}
+
+
+.header-container{
+    background-color: rgb(230, 149, 0);
+    display: flex;
+    justify-content: center;   
+}
+
+.header{
+    width: 90%;
+    height: 250px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: column;
+    flex-direction: column;
+}
+
+div.logo > i{
+    width: 100%;
+    font-size: 100px;
+    
+}
+
+.logo{
+    width: 50%;
+}
+
+@media screen and (min-width: 992px){
+    .header{
+        justify-content: space-around;
+        flex-direction: row;
+    }
+}
+
+.box-container{
+    background-color: #fff;
+    display: flex;
+    justify-content: space-around;
+}
+
+.boxes{
+    width: 90%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: row;
+    flex-wrap: wrap;
+}
+
+div.box{
+    width: 300px;
+    height: 300px;
+    font-weight: 900;
+    font-size: larger;
+    text-align: center;
+    margin: 5px;
+    border: 10px solid greenyellow;
+    border-radius: 15px;
+}
+
+.boxes > .box:nth-of-type(1){
+    background-color: #480048;
+    margin-top: 0;
+}
+.boxes > .box:nth-of-type(2){
+    background-color: darkgreen;
+    margin-top: 0;
+}
+.boxes > .box:nth-of-type(3){
+    background-color: #c04848;
+    margin-top: 0;
+}
+.boxes > .box:nth-of-type(4){
+    background-color: brown;
+}
+.boxes > .box:nth-of-type(5){
+    background-color: chocolate;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer > div{
+    margin: 2px;
+    background-color: aqua;
+    flex-grow: 1;
+    height: 200px;
+    min-width: fit-content;
+}
+
+.footer ul{
+    list-style-type: none;
+    cursor: pointer;
+}
+
+.footer div:nth-of-type(1), .footer div:nth-of-type(3){
+    width: 25%;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: initial;
+}
+
+@media screen and (max-width: 600px){
+    li{
+        padding: 0 0 25% 0;
+    }
+}
+
+.footer div:nth-of-type(2){
+    display: flex;
+}

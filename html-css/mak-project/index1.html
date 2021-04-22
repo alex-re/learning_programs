@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>maktabkhooneh-first-projact</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+
+    <img class="bg-photo" src="bg-photo.jpg" alt="you cant load this image">
+    
+<!-- *****     ____________________________________MODAL____________________________________     ***** -->
+
+    <div class="overlay" id="popup1">
+        <div class="modal" id="modal_about-me">
+            <h2>modal about me</h2><br>
+            <div class="rectangle"><a class="close" href="#">&times;</a></div>
+            <div class="content"> modal about me modal about me modal about me </div>                 
+        </div>
+    </div>
+    <div class="overlay" id="popup2">
+        <div class="modal" id="modal_contact-me">
+            <h2>modal content me</h2><br>
+            <div class="rectangle"><a class="close" href="#">&times;</a></div>
+            <div class="content"> modal contact me modal content me modal contact me </div>                 
+        </div>
+    </div>
+    <div class="overlay" id="popup3">
+        <div class="modal" id="modal_resome">
+            <h2>modal resome</h2><br>
+            <div class="rectangle"><a class="close" href="#">&times;</a></div>
+            <div class="content">modal resome modal resome modal resome</div>                 
+        </div>
+    </div>
+    <div class="overlay" id="popup4">
+        <div class="modal" id="modal_my-knawledge">
+            <h2>modal my knawledge</h2><br>
+            <div class="rectangle"><a class="close" href="#">&times;</a></div>
+            <div class="content">modal my knawledge modal my knawledge modal my knawledge</div>                 
+        </div>
+    </div>
+    <div class="overlay" id="popup5">
+        <div class="modal" id="modal_my-exparience">
+            <h2>modal my exparience</h2><br>
+            <div class="rectangle"><a class="close" href="#">&times;</a></div>
+            <div class="content">modal my exparience modal my exparience modal my exparience</div>                 
+        </div>
+    </div>
+<!------------------------------------------------------------------------------------------------------------------------------>
+    
+    <header  id="header">
+        <div class="menu-container">
+            <div class="menu">
+                <div class="about-me"> <a href="#popup1"> <i class="fa fa-drivers-license"> </i> درباره ی من</a></div>
+                <div class="contact-me"><a href="#popup2"><i class="fa fa-tty"></i>ارتباط با من</a></div>
+                <div class="rezome"><a href="#popup3"><i class="fa fa-address-card"></i>رزومه</a></div>
+                <div class="my-knawledge"><a href="#popup4"><i class="fa fa-user-circle-o"></i>تحصیلات من</a></div>
+                <div class="my-exparience"><a href="#popup5"><i class="fa fa-suitcase"></i>تجارب من</a></div>
+                <div class="fehrest"><i class="fa fa-tasks"></i>فهرست
+                    <span class="fehrest-menu">
+                        <ul>
+                            <li class="f-m-l" id="item1"><a href="#footer">خط اول</a></li>
+                            <li class="f-m-l" id="item2"><a href="#footer">خط دوم</a></li>
+                            <li class="f-m-l" id="item3"><a href="#footer">خط سوم</a></li>
+                            <li class="f-m-l" id="item4"><a href="#footer">خط چهارم</a></li>
+                        </ul>
+                    </span>
+                </div>
+            </div>
+        </div>    
+    </header>
+    <a href="#header" id="jump_to_top"><i class="fa fa-arrow-circle-up"></i></a>
+    
+    <div style="width: 100%;height: 100%;"></div>
+
+    <div class="jump_to_down-container"><a href="#main-container" id="jump_to_down"><i class="fa fa-arrow-circle-down"></i></a></div>
+    <div id="main-container">
+        <div class="main" id="main-about-us">
+            <h3>در باره ی من</h3>
+            <br>
+            <p>hover me if you want extra text!<span>EXTRA!</span></p>
+        </div>
+        <div class="main" id="main-center">
+            <div class="main-center-boxes">
+                <ul>
+                    <li id="main-education">education</li>
+                    <li id="main-exparience">exparience</li>
+                    <li id="main-CV">CV</li>
+                    <li id="main-contact">contact</li>
+                </ul>
+            </div>
+            <br>
+            <p></p>
+        </div>
+        <!-- <div class="main" id="main-about-us"></div> -->
+        <div class="corner-menu">
+            <ul>
+                <li><a href="#main-education">education</a></li>
+                <li><a href="#main-exparience">exparience</a></li>
+                <li><a href="#main-CV">CV</a></li>
+                <li><a href="#main-contact">contact</a></li>
+            </ul>
+        </div>
+    </div>
+    
+    <footer>
+        <div id="footer">
+            <div class="link-to-maktab">
+                <a href="https://maktabkhooneh.org" target="_blank">Link to &copy; maktabkhooneh</a>
+            </div>
+        </div>
+    </footer>
+    
+
+</body>
+</html>

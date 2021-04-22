@@ -1,0 +1,24 @@
+p.first{
+    font-weight: 400; /* from 100 to 900 */
+}
+
+p.first{
+    /* serif */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p.second{
+    /* sans-serif */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p.third{
+    /* monospace */
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* for using foreign fonts first download it (format: *.eot  *.ttf  *.woff) and then write these commands and then use it like top examples */
+@font-face{
+    font-family: 'IranNastaliq';/* font family name */
+    src: url('C:\Users\Admin\OneDrive\Desktop\font.eot') format(eot);
+}

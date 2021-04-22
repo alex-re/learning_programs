@@ -1,0 +1,35 @@
+*{
+    scroll-behavior: smooth;
+}
+
+div:hover{
+    transition: all 1s; /* all changes take 1 second time */
+    transform: scale(1.5); /* make it bigger (better to set in ":hover" mode)*/
+    /* scaleY and scaleX for be big in one direction */
+}
+
+@keyframes my-app{
+    from {background-color: red;}
+    to {background-color: blue;}
+}
+
+div{
+    animation-name: my-app;
+    animation-duration: 1s;
+    animation-direction: reverse;
+    animation-duration: alternate; /* when end back to first reversly */
+    animation-iteration-count: 10; /* repeate 10 times (infinite = always repeat it) */
+    animation-play-state: paused;
+    animation-delay: 1s;
+}
+
+@keyframes my-better-app{
+    0% {color: royalblue;}
+    20% {color: saddlebrown;}
+    70% {color: salmon;}
+    100% {color: springgreen;}
+}
+
+div{
+    animation-name: my-better-app;
+}

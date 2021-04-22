@@ -1,0 +1,17 @@
+p{
+    background-color: crimson;
+    border: 5px solid plum;
+    margin: auto;
+    margin: 10px 10px 10px 10px; /* up right down left */
+}
+
+.first{
+    margin-bottom: 40px;
+    margin-top: 80px;
+/* it will mke 80px distance (in top and bottom it takes ther largest size) (in left and right it will add them to each other) */
+}
+
+.second{
+    outline: 5px dashed blue; /* syntax is same as "border" */
+    outline-offset: 6px;
+}

@@ -1,0 +1,10 @@
+div{
+    background-color: aqua;
+    height: 100px;
+    width: 100px;
+    overflow: hidden;
+    overflow: visible; /* default */
+    overflow: scroll;
+    overflow: auto;
+    overflow-y: hidden;
+}

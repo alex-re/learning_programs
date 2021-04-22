@@ -1,0 +1,27 @@
+/* shortcut     flex: [flexgrow] [flexshrink] [flexbasis] */
+
+.flex-container{
+    display: flex;
+    background-color: cadetblue;
+    flex-wrap: wrap;
+}
+
+.flex-container > div{
+    background-color: blueviolet;
+    padding: 5px;
+    margin: 5px;
+    font-size: 30px;    
+    /* order: -1; default for all is 0 */
+}
+
+.item:nth-of-type(3){
+    /* height: auto; */
+    /* width: auto; */
+    flex-basis: 80px; /* beter than height and width */
+    /* flex-grow: 1; تمام فضای دایو بالایی راپوشش میدهد */
+    /* flex-grow: 4; default is 0 | it will make item-3 [ * 4 ] if you DONT set width | if you set width it will grow it with its own unit of measurement */
+    /* flex-shrink: 1; reverse of flex-grow */
+
+    
+}
+

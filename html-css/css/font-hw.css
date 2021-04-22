@@ -1,0 +1,21 @@
+@font-face{
+    font-family: 'niconne';/* font family name */
+    src: url('C:\learning programs\niconne\Niconne-Regular.ttf') format(ttf);
+}
+
+
+*{
+    background-color: aqua;
+}
+
+h1{
+    font-family: niconne;
+    font-size: 70px;
+    text-shadow:
+    2px 2px 0px red,
+    4px 4px 0px blue,
+    6px 6px 0px green,
+    8px 8px 0px darkmagenta,
+    10px 10px 0px hotpink,
+    20px 20px 0px #148263;
+}

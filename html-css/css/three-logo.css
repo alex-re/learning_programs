@@ -1,0 +1,23 @@
+img.search{
+    width: 100px; height: 70px;
+    border: 50px solid #00d120;
+    border-width: 100px;
+    border-radius: 20px;
+    margin-right: 50px;
+}
+
+img.contact{
+    width: 100; height: 70px;
+    border: 100px solid #cf00a2;
+    border-width: 100px 145px;
+    border-radius: 20px;
+    margin-right: 50px;
+}
+
+img.location{
+    width: 100; height: 70px;
+    border: 100px solid #326fa1;
+    border-width: 100px 145px;
+    border-radius: 20px;
+    margin-right: 50px;
+}

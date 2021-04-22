@@ -1,0 +1,10 @@
+/* it can mach CSSs to each other AND it has to be in first line */
+
+@import 'C:\learning programs\text.css'
+/* OR */
+@import url('C:\learning programs\text.css')
+
+
+
+/* if [max-width: 500px] was TRUE import text.css else dont import it */
+@import 'C:\learning programs\text.css' screen and (max-width: 500px)

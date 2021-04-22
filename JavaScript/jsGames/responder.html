@@ -1,0 +1,37 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Responder</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+</head>
+
+<body>
+    <div>Ask Your Question !</div>
+    <input type="text" class="form-control" placeholder="question" />
+    <button class="btn btn-success">Ask</button>
+    <div class="message" class="alert alert-info"></div>
+
+    <script>
+        const answerArray = ["It will work",
+            "Maybe maybe not",
+            "Probably Not",
+            "I Dont Now"
+        ];
+        const message = document.querySelector(".message");
+        const question = document.querySelector("input");
+        const button = document.querySelector("button");
+        button.addEventListener("click", function () {
+            let res = Math.floor(Math.random() * answerArray.length);
+            message.innerText = question.value + " " +
+                answerArray[res];
+            question.value = "";
+        });
+    </script>
+
+</body>
+
+</html>

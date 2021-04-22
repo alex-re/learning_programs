@@ -1,0 +1,6 @@
+p.first{
+    background-color: salmon;
+    border: 7px dotted lightskyblue;
+    padding: 15px 15px 15px 15px; /* up right down left */
+    padding-left: 20px;
+}

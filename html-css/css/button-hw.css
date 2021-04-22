@@ -1,0 +1,26 @@
+*{
+    background-color: #ffc800;
+}
+
+a{
+
+    position: absolute;
+    width: 300px;
+    height: 70px;
+    top: 50%;
+    left: 50%;
+    margin: -100px 0 0 -150px;
+
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    text-decoration: none;
+    background-color: orange;
+    border: 10px solid orange;
+    border-radius: 25px;
+    box-shadow: 0 10px 0px #362000;
+}
+
+a:active{
+    box-shadow: none;
+}

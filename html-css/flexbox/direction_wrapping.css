@@ -1,0 +1,15 @@
+.flex-container{
+    display: flex;
+    background-color: cadetblue;
+
+    flex-wrap: wrap; /* wrap nowrap wrap-reverse */
+    flex-direction: column-reverse; /* column row column-reverse row-reverse */
+    flex-flow: column row; /* shortcut; first is flex-wrap second is flex-direction */
+}
+
+.flex-container > div{
+    background-color: blueviolet;
+    padding: 5px;
+    margin: 5px;
+    font-size: 30px;
+}

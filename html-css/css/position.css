@@ -1,0 +1,17 @@
+h1{
+    display: inline;
+    border: 5px solid lawngreen;
+    background-color: aqua;
+    /* position: static; default; showig and real plce are same
+    position: fixed; not change in scroll; like telegram icon in toplearn site
+    position: relative; save all thing just change showing place
+    position: absolute; set from its parents who has relative posotion 
+    position: sticky; be fixed on top of the page */
+
+    /* top: 200px;
+    right: 100px;
+    bottom: 100px;
+    left: 300px; */
+}
+
+/* z-index: -1; it specifies priority and can be - and + */

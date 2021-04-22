@@ -1,0 +1,24 @@
+a:link{
+    color: plum;
+    text-decoration: none;
+}
+
+a:visited{
+    color: red;
+}
+
+a:hover{
+    color: green;
+}
+
+p:hover{
+    color: aqua;
+}
+
+a:active{
+    color: darkmagenta;
+}
+
+p{
+    cursor: wait;
+}

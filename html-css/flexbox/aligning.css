@@ -1,0 +1,19 @@
+.flex-container{
+    display: flex;
+    background-color: cadetblue;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: center;
+    height: 70%;
+}
+
+.flex-container > div{
+    background-color: blueviolet;
+    padding: 5px;
+    margin: 5px;
+    font-size: 30px;
+}
+
+.flex-container > div:nth-of-type(3){
+    align-self: flex-end;
+}

@@ -1,0 +1,33 @@
+table,th,td{
+    border: 2px solid red;
+    border-collapse: collapse;
+    overflow-x: auto;
+}
+
+table{
+    width: 100%;
+    border-spacing: 50px; /* works if border-collapse: separate; */
+    caption-side: bottom;
+    empty-cells: hide; /* works if border-collapse: separate; */
+    table-layout: auto; /* better */
+    table-layout: fixed; /* faster */
+}
+
+th{
+    height: 60px;
+}
+
+td{
+    height: 100px;
+    text-align: center; /* FOR TH default is center */
+    vertical-align: top;
+}
+
+/* usefull */
+th, td{
+    padding: 10px;
+}
+
+tr:nth-child(even){
+    background-color: aqua;
+}

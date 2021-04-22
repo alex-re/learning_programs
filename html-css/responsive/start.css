@@ -1,0 +1,16 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    width: 50%;
+    height: 50%;
+}
+
+@media only screen and (max-width: 600px){    /* do it if max-width == 600px (if True) (upper than 600px) */
+    /* note: fisrt wtite default! better to write it in edn of page becaus its over write tags properties */
+    body{
+        background-color: crimson;
+    }
+}

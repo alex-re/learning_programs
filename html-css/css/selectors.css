@@ -1,0 +1,59 @@
+p, h1, h2{
+    /* p and h1 and h2 */
+}
+
+div, p{
+    /* all <p> if in <div> */
+}
+
+div > p{
+    /* all <p> if it is a child of <div> */
+}
+
+div + p{
+    /* all <p> if comes immediately after div */
+    /* <div></div><p><p> */
+}
+
+div~p{
+    /* all <p> after <div> with same parents */
+}
+
+a:link{
+    /* normal */
+}
+
+a:visited{
+    /* visited ;-] */
+}
+
+p:hover{
+    /* when cursor in on it */
+}
+
+a:active{
+    /* active ;-] */
+}
+div:target{
+    /* when target whith <a> */
+}
+
+tr:nth-child(even){
+    /* زوج */
+}
+
+tr:nth-child(odd){
+    /* فرد */
+}
+
+@media screen and (min-width: 800px){
+    /* if */
+}
+
+p:nth-of-type(3){
+    /* third <p> */
+}
+
+[class*="clo-"]{
+    /* all classes that has "clo-" in their class */
+}

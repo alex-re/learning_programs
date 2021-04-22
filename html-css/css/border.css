@@ -1,0 +1,9 @@
+/* shortcut for using border >>> "border: width style color" OR "border-top , ..." */
+
+div{
+    /* IN ALL up right down left */
+    border-style: ridge solid dashed dotted;
+    border-width: 5px 5px 5px 5px;
+    border-color: aqua rebeccapurple red burlywood;
+    border-radius: 15px; /* good work in solid , ... */
+}

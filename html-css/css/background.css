@@ -1,0 +1,29 @@
+/* shortcut for using background >>> "background: color img position size repeat origin clip attachment" */
+
+
+/* div{height: 100px;width: 50px; background-color: pink;}
+
+div{height: 100px;width: 50px; background-attachment: fixed;; background-image: url("C:/Users/Admin/OneDrive/Desktop"); background-repeat: no-repeat; background-repeat: repeat-x;}
+
+p{background-color: red; border: 10px dotted blue; padding: 10px;}
+
+.border-box{background-clip: border-box;}
+.padding-box{background-clip: padding-box;}
+.content-box{background-clip: content-box;}
+.text{background-clip: text;} */
+
+div{
+    background-image: url("C:/Users/Admin/OneDrive/Desktop/image-link.jpg");
+    border: 20px double coral;
+    background-origin: border-box;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    background-size: contain;
+}
+
+div{
+    background: repeating-linear-gradient(to left, red, blue 10%, white 20%);
+    background: linear-gradient(45deg, red, blue 10%, white 20%);
+    background: repeating-radial-gradient(to left, red, blue 10%, white 20%); /* circle */
+}

@@ -1,0 +1,35 @@
+ul{
+    list-style-type: square;
+    list-style-type: circle;
+    list-style-image: url('C:/Users/Admin/OneDrive/Desktop/image-link.jpg');
+}
+
+/* shortcut */
+
+ul{
+    list-style: square inside url('C:/Users/Admin/OneDrive/Desktop/image-link.jpg');
+}
+
+ol{
+    list-style-type: lower-alpha;
+    list-style-type: upper-roman;
+}
+
+/* delete ul defaults */
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* list-style-position */
+ ul{
+     background-color: blue;
+     padding: 20px;
+     list-style-position: inside;
+ }
+ li{
+     background-color: chocolate;
+     padding: 5px;
+     margin-left: 35px;
+ }
